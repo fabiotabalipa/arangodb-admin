@@ -1,0 +1,3 @@
+# Backend config
+PORT=4009
+HOST=localhost
