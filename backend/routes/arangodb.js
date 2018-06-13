@@ -217,7 +217,7 @@ var createMiddleware = function(req, res, next) {
             name: collectionName,
             type: collectionType,
             keyOptions: {
-                type: generatorType, offset: offset, increment: increment, allowUserKeys: allowUserKeys
+                type: generatorType, offset: parseInt(offset, 10), increment: parseInt(increment, 10), allowUserKeys: allowUserKeys
             }
         })
     }
